@@ -1,0 +1,184 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  main ,
+  footer{
+    padding: 20px;
+    
+  }
+  
+  /* Landing page styles */
+  .landing-section {
+    max-width: 400px;
+    margin:0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #addLectureBtn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c53312;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  #addLectureBtn:hover {
+    color:rgb(1, 1, 1);
+    background: none;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  #logoutButton
+  {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c53312;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  #logoutButton:hover{
+    color:rgb(1, 1, 1);
+    background: none;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+
+  /* Lecture form styles */
+.lecture-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+  padding: 30px ;
+}
+
+#student
+{
+  margin: 95px;
+  margin-left: 500px;
+}
+
+
+#lab{
+  margin-left: 60px;
+  padding-right: 10px;
+}
+
+#lab1{
+  margin-left: 150px;
+}
+
+#lab2{
+  margin-left: 130px;
+}
+
+
+
+#teacher
+{
+  margin: 95px;
+  margin-left: 500px;
+}
+
+.rule{
+  width: 20vw;
+  margin-left: 2.75vw;
+  color: black;
+  height: 2px;
+}
+
+/* Styling for the footer */
+footer {
+  text-align: center;
+  background-color: #464545;
+  padding: 20px;
+  color: #fffbfb;
+}
+
+.mark-attendance {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mark-attendance h2{
+  margin-left: 60px;
+}
+
+
+.mark-attendance button
+{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c53312;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.mark-attendance button:hover{
+  color:rgb(1, 1, 1);
+  background: none;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#markAttendanceBtn
+{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c53312;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#markAttendanceBtn:hover{
+  color:rgb(1, 1, 1);
+  background: none;
+  border: 2px solid rgb(0, 0, 0);
+}
